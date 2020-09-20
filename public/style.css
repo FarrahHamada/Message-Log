@@ -1,0 +1,84 @@
+body{
+  padding-top:80px;
+  word-wrap:break-word;
+}
+.jumbotron text-center{
+  background-color: pink;
+}
+
+* {
+  box-sizing: border-box;
+}
+.signup{
+  background-color: #fbd7cf;
+  color:#200020;
+  font-family: 'Crimson Text', serif;
+}
+.profile{
+ background-color: #fbd7cf;
+ display: block;
+ position: relative;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.messages{
+  background-color: #f9f1f1;
+  font-family: 'Crimson Text', serif;
+  font-size: 20px;
+}
+.login{
+  background-color: #fbd7cf;
+  color:#200020;
+  font-family: 'Crimson Text', serif;
+}
+.index{
+  /* background-color: #FCDED7; */
+  background-image: url('https://c4.wallpaperflare.com/wallpaper/578/493/137/geometry-poly-vector-dots-wallpaper-preview.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:#200020;
+  font-family: 'Crimson Text', serif;
+
+}
+.indexImg{
+
+  position: absolute;
+  right: 20%;
+  height: 400px;
+  width: 400px;
+  max-width: 100%;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  padding-left:  20px;
+  padding-right: 20px;
+  height: 500px;
+  font-family: 'Crimson Text', serif;
+  font-size: 30px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+.messages,h2{
+  font-family: 'Crimson Text', serif;
+  padding-left: 20px;
+}
+
+.messages,li{
+  padding-left: 20px;
+}
+
+ button{
+   cursor: pointer;
+   background-color: lightgrey;
+
+}
